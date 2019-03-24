@@ -1,7 +1,7 @@
 {
-  "name": "react-components-starter",
+  "name": "<Package_Name>",
   "version": "1.0.0",
-  "description": "",
+  "description": "my cool React Component",
   "main": "build/index.js",
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
+    "babel-loader": "^8.0.5",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",

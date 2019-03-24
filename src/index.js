@@ -16,9 +16,7 @@ import PropTypes from 'prop-types';
 
 class MyReactComponent extends React.Component {
     render() {
-        const { textColor,text } = this.props;
-        const color = textColor || "red";
-
+        const { color,text } = this.props;
         return (
             <div>
                 <h1 style={{color}}>
@@ -28,6 +26,14 @@ class MyReactComponent extends React.Component {
         )
     }
 }
+
+
+// Default Props
+// https://reactjs.org/docs/typechecking-with-proptypes.html#default-prop-values
+MyReactComponent.defaultProps = {
+    text:'MyText',
+    color: 'red'
+};
 
 // PropTypes
 // https://reactjs.org/docs/typechecking-with-proptypes.html
